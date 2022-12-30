@@ -1,0 +1,160 @@
+*{
+    margin: auto 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items:center;
+    margin: auto 60px;
+    
+}
+
+.name{
+    background-color:lightseagreen;
+    width:240px;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name h2{
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    margin:20px;
+    text-decoration: none;
+    color: black;
+}
+
+.text img{
+    width:200px;
+    height:200px;
+}
+
+.body{
+    display: flex;
+    background-color: beige;
+    height: 600px;
+    padding:30px;
+    
+}
+.about{
+    width:65%;
+    margin: 0 60px;
+    background-color:white;
+    border:1px solid #aaa;
+}
+.heading{
+    padding: 20px;
+}
+.heading h2{
+    margin-bottom: 10px;
+}
+.linero{
+    height:2px;
+    background-color: darkgray;
+    margin-top:20px;
+}
+.icon{
+    margin:0px;
+    background-color: white;
+    width:20%;
+    height: 200px;
+    border:1px solid #aaa;
+}
+.text{
+    padding:20px;
+    display:flex;
+    align-items: flex-start;
+}
+.ii{
+    margin:0;
+}
+.bb{
+    margin:0 10px;
+}
+.icon img{
+    margin:auto 10px;
+    width:20%;
+}
+h2, h3{
+    color:lightseagreen;
+    font-size:30px;
+}
+.linefo{
+    height:10px;
+    background-color: cadetblue; 
+}
+.footer{
+    background-color: darkgrey;
+    height:65px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer p{
+    color:white;
+}
+.box{
+    background-color: white;
+    width:65%;
+    margin: 0 60px;
+}
+.images{
+    display:flex;
+    flex-wrap: wrap;
+    margin:0 10px;
+}
+.images img{
+    width:200px;
+    margin: 10px 20px;
+}
+.otext{
+    position:relative;
+}
+.otext h3{
+    position: absolute;
+    bottom:24px;
+    right:20px;
+    background-color: lightseagreen;
+    color:white;
+    width:200px;
+    text-align: center;
+}
+input[type=text], label, textarea{
+    width:95%;
+    margin:10px 12px;
+    
+}
+label{
+    font-size: 17px;
+    color:rgb(red, green, blue)
+}
+input[type=text]{
+    padding:10px;
+    border:1px solid #ccc;
+}
+input[type=submit]{
+    background-color: lightseagreen;
+    color:white;
+    padding:10px 20px;
+    margin: 0px 12px;
+    border:none;
+}
+textarea{
+    border:1px solid #ccc;
+    padding:10px;
+}
